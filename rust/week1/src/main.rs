@@ -1,3 +1,4 @@
+// std::io is a module that provides functions for reading user input from the console.
 use std::io;
 
 fn main() {

@@ -10,4 +10,4 @@ num2 = float(input()) # Read the second number and convert it to a float
 finalrsult = num1 * num2
 #Print the result as an integer
 
-print("The result is: ", int(finalrsult))
+print(f"The result is: {int(finalrsult)}")
