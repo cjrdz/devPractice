@@ -2,7 +2,6 @@
 """
 Created on Tue Jan 28 20:40:03 2025
 
-@author: MINEDUCYT
 
 # 1 WEEK
 
@@ -17,12 +16,22 @@ Multiply these two numbers together
 Display the result of the multiplication
 """
 
+#ASK THE USER  TO ENTER A NUMBER AND CONVERT IT TO FLOAT
 NUMBER1 = float (input("Ingrese numero decimal : " ))
 
+#ASK THE USER TO ENTER A NUMBER AND CONVERT IT TO INT 
 NUMBER2 = int (input("Ingrese numero entero : " )) 
 
+#Perform the multiplication betwen the decimal and the integer
 MULTI = NUMBER1 * NUMBER2 
 
 print("\n")
 
+#show 
+# Display the multiplication result on the screen
 print( "Resultado de Multiplicacion : ", MULTI)
+
+
+
+
+
